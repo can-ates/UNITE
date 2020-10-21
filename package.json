@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "do": "nodemon index.js",
-    "dev": "concurrently \"npm run do\" \"npm --prefix ../client run start\"",
+    "start": "node server/index.js",
+    "do": "nodemon server/index.js",
+    "dev": "concurrently \"npm run do\" \"npm --prefix client run start\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
