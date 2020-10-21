@@ -3,7 +3,6 @@ Unite is a community app that unites all people that has same interest. You can 
 
 ## Motivation
 Unite is my very first full stack project and I wanted to build something that encompasses all aspects of web development and also useful for other people.
-Rest
  
 ## Screenshots
 
